@@ -67,7 +67,7 @@ All SEC filings
 </div>
 
 {/* another component */}
-<div className="w-max max-w-full">
+{/* <div className="w-max max-w-full">
 <table id="managerFilings" className="border shadow table-fixed">
 <thead>
 <tr>
@@ -336,7 +336,7 @@ All SEC filings
 </tr>
 </tbody>
 </table>
-</div>
+</div> */}
 
     
     </main>
