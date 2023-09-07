@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+ 
+*{
+  font-style: normal;
+  font-family: IBM Plex Sans;
+ 
+}
+h1,h2{
+  font-size: inherit;
+    font-weight: inherit;
+}
+.link{
+  --tw-text-opacity: 1;
+    color: rgb(79 70 229/var(--tw-text-opacity))
+
+}
+.link:visited {
+  color: #4c1d95
+}
+.link:hover {
+  --tw-text-opacity: 1;
+  color: rgb(49 46 129/var(--tw-text-opacity))
+}
+h1 {
+  font-size: 1.875rem;
+  font-weight: 500;
+  line-height: 2.25rem;
+  
+}
+.mt-1 {
+  margin-top: .25rem
+}
+
+h2 {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  font-family: IBM Plex Sans;
+  
+}
+div dt { 
+  font-family: IBM Plex Sans;
+}
+/* div  { 
+  font-family: IBM Plex Sans;
+} */
